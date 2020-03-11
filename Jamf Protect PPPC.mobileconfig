@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Jamf Protect PPPC</string>
+			<key>PayloadDisplayName</key>
+			<string>Jamf Protect PPPC</string>
+			<key>PayloadIdentifier</key>
+			<string>0F27BD98-0F7A-4974-AF6B-9BCCC84D17BB</string>
+			<key>PayloadOrganization</key>
+			<string>Jamf</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>4724B59C-3E28-4402-A57F-7F136BAD9A2A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.jamf.protect.daemon" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.jamf.protect.daemon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.jamf.protect.daemon" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.jamf.protect.daemon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicySysAdminFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.jamf.protect.daemon" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.jamf.protect.daemon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Jamf Protect PPPC</string>
+	<key>PayloadDisplayName</key>
+	<string>Jamf Protect PPPC</string>
+	<key>PayloadIdentifier</key>
+	<string>0F27BD98-0F7A-4974-AF6B-9BCCC84D17BB</string>
+	<key>PayloadOrganization</key>
+	<string>Jamf</string>
+	<key>PayloadType</key>
+	<string>com.apple.TCC.configuration-profile-policy</string>
+	<key>PayloadUUID</key>
+	<string>183656EC-D46A-44AE-B597-167887368452</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>payloadScope</key>
+	<string>system</string>
+</dict>
+</plist>
